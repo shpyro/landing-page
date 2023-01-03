@@ -1,5 +1,6 @@
 body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 }
 
 * {
@@ -8,40 +9,35 @@ body {
     padding: 0;
 }
 
-
-header {
-    background-color: #1F2937;
-    color: white;
- 
-}
-
 h1 {
     font-size: 48px;
     font-weight: 800;
 }
 
-nav {
+#nav-bar-wrapper {
     display: flex;
     justify-content: center;
+    background-color: #1F2937;
 }
 
 #nav-bar-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1000px;
     padding: 20px 0 20px 0;
+    width:1000px;
 
 }
-
 
 #nav-bar-logo {
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
-    padding: 
+    flex:1;
 }
-
+#nav-bar-menu {
+    flex:1;
+}
 #nav-bar-menu ul {
     margin: 0;
     padding: 0;
@@ -56,33 +52,38 @@ nav {
     text-decoration: none;
 }
 
-#hero-container {
+#hero-wrapper {
     display: flex;
     justify-content: center;
     height:500px;
+    background-color: #1F2937;
 }
 
-#slogan-container {
+#hero-container {
     display: flex;
     width: 1000px;
- 
     align-items: center;
     justify-content: space-between;
     gap: 100px;
     flex-wrap: wrap;
-   
-
+    font-size: 18px;
+    color: #E5E7EB;
 }
-#slogan-left {
+#hero-left {
     flex: 1;
     height: 250px;
     margin-right: 0px;
 }
-#slogan-right {
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+#hero-right {
     height:300px;
     flex:1;
 }
-#slogan-right img {
+#hero-right img {
     object-fit: cover;
     width:500px;
     height:250px;
@@ -99,4 +100,7 @@ nav {
     margin: 10px 0 10px 0;
     width: 130px;
     border-radius: 8px;
+}
+#content-wrapper {
+    
 }
