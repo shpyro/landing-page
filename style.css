@@ -4,7 +4,9 @@ body {
 }
 
 * {
-    border: 1px solid red;
+    border: 0px solid red;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -46,18 +48,27 @@ nav {
 }
 #slogan-container {
     display: flex;
-    justify-content: space-between;
     width: 1000px;
     height: 400px;
     align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    flex-wrap: wrap;
+   
 
 }
 #slogan-left {
-    width: 400px;
+    flex: 1;
+    height: 250px;
+    margin-right: 0px;
 }
 #slogan-right {
-    width: 450px;
-    height: 200px;
-    display: block;
+    height:300px;
+    flex:1;
+}
+#slogan-right img {
+    object-fit: cover;
+    width:500px;
+    height:250px;
 
 }
