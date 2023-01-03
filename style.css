@@ -1,5 +1,5 @@
 body {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Georgia', sans-serif;
     
 }
 
@@ -84,6 +84,7 @@ header {
     object-fit: cover;
     width:500px;
     height:250px;
+    border-radius: 10px;
 
 }
 
@@ -104,12 +105,13 @@ header {
     display:flex;
     flex-direction: column;
     align-items: center;
+    height:500px;
 }
 .information-section-title {
     font-size: 36px;
-    font-weight: 800;
+    font-weight: bolder;
     color: #1F2937;
-    margin: 20px;
+    margin: 50px;
 
 }
 #information-boxes-container {
@@ -120,6 +122,7 @@ header {
 
 .box {
     width: 160px;
+    text-align: center;
 
 }
 .box img {
@@ -128,4 +131,74 @@ header {
     border: 4px solid #3882F6;
     border-radius: 20px;
     object-fit:cover;
+}
+#quote-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    font-size: 36px ;
+    color: #1F2937;
+    font-weight: lighter;
+    font-style:italic;
+    height: 500px;
+}
+
+#quote-container {
+    width: 800px;
+
+}
+.author {
+        text-align: right;
+        font-size: 30px;
+        margin-right: 50px;
+        font-weight: bold;
+}
+
+#call-wrapper {
+    display: flex;
+    justify-content: center;
+}
+#call-container {
+    margin: 100px;
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+    width: 1000px;
+    height: 150px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: #F9FAF8;
+}
+.call-title {
+    font-weight: bold;
+    font-size: 24px;
+}
+.call-text {
+    font-size: 18px;
+}
+
+.call-signup-button {
+    padding: 10px;
+    background-color: #3882F6;
+    border: 2px solid;
+    color:#F9FAF8;
+    font-weight: 800;
+    font-size: 18px;
+    margin: 10px 0 10px 0;
+    width: 130px;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #1F2937;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer-wrapper {
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
