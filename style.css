@@ -200,11 +200,14 @@ footer {
     display:flex;
     justify-content: center;
     align-items: center;
-    color: #F9FAF8;
+    
 }
 #footer-wrapper {
     height:100px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.footer-text {
+    color: #F9FAF8;
 }
