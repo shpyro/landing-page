@@ -1,2 +1,2 @@
-# 0din-landing-page
+# Odin-landing-page
 Landing page from scratch, following THe Odin Project course
