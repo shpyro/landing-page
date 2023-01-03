@@ -36,10 +36,11 @@ header {
 
 }
 
-#top-bar-logo {
+#top-bar-logo, #top-bar-logo a {
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
+    text-decoration: none;
     
 }
 #top-bar-menu {
