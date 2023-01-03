@@ -1,13 +1,13 @@
 body {
-    font-family: sans-serif;
-
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 * {
-    border: 0px solid red;
+
     margin: 0;
     padding: 0;
 }
+
 
 header {
     background-color: #1F2937;
@@ -30,6 +30,16 @@ nav {
     justify-content: space-between;
     align-items: center;
     width: 1000px;
+    padding: 20px 0 20px 0;
+
+}
+
+
+#nav-bar-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+    padding: 
 }
 
 #nav-bar-menu ul {
@@ -38,18 +48,24 @@ nav {
     display:flex;
     list-style-type: none;
     justify-content: space-around;
-    gap: 10px;
+    gap: 20px;
+}
+#nav-bar-menu a, a:visited, a:hover, a:active {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
 }
 
-#master-container {
+#hero-container {
     display: flex;
     justify-content: center;
-
+    height:500px;
 }
+
 #slogan-container {
     display: flex;
     width: 1000px;
-    height: 400px;
+ 
     align-items: center;
     justify-content: space-between;
     gap: 100px;
@@ -71,4 +87,16 @@ nav {
     width:500px;
     height:250px;
 
+}
+
+.signup-button {
+    padding: 10px;
+    background-color: #3882F6;
+    border:0;
+    color:#F9FAF8;
+    font-weight: 800;
+    font-size: 18px;
+    margin: 10px 0 10px 0;
+    width: 130px;
+    border-radius: 8px;
 }
