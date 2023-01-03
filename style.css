@@ -4,7 +4,7 @@ body {
 }
 
 * {
-    border: 1px solid red;
+    border: 0px solid red;
     margin: 0;
     padding: 0;
 }
@@ -17,14 +17,16 @@ h1 {
 
 header {
     background-color: #1F2937;
+    display:flex;
+    justify-content: center;
 }
 #top-bar-container {
-    margin:auto;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 0 20px 0;
-    width:65%;
+    width:1000px;
     background-color: #1F2937;
 
 }
@@ -33,17 +35,17 @@ header {
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
-    flex:1;
+    
 }
 #top-bar-menu {
-    flex:1;
+   
 }
 #top-bar-menu ul {
     margin: 0;
     padding: 0;
     display:flex;
     list-style-type: none;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 20px;
 }
 #top-bar-menu a, a:visited, a:hover, a:active {
@@ -61,29 +63,23 @@ header {
 
 #hero-container {
     display: flex;
-    width: 65%;
+    width: 1000px;
     align-items: center;
     justify-content: space-between;
-    gap: 100px;
-    flex-wrap: wrap;
     font-size: 18px;
     color: #E5E7EB;
     background-color: #1F2937;
 }
 #hero-left {
-    flex: 1;
-    height: 250px;
-    margin-right: 0px;
+    width:450px;
+
 }
 .hero-main-text {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
 }
-#hero-right {
-    height:300px;
-    flex:1;
-}
+
 #hero-right img {
     object-fit: cover;
     width:500px;
@@ -119,7 +115,7 @@ header {
 #information-boxes-container {
     display:flex;
     justify-content: space-around;
-    width: 55%;
+    width: 900px;
 }
 
 .box {
