@@ -94,6 +94,9 @@ header {
 }
 
 .signup-button {
+    text-align: center;
+    text-decoration: none;
+    display: block;
     padding: 10px;
     background-color: #3882F6;
     border:0;
@@ -184,6 +187,9 @@ header {
 }
 
 .call-signup-button {
+    text-align: center;
+    text-decoration: none;
+    display: block;
     padding: 10px;
     background-color: #3882F6;
     border: 2px solid;
