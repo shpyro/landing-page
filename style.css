@@ -92,6 +92,9 @@ header {
     border-radius: 10px;
 
 }
+#hero-right img:hover {
+    filter: brightness(120%);
+}
 
 .signup-button {
     text-align: center;
@@ -106,6 +109,10 @@ header {
     margin: 10px 0 10px 0;
     width: 130px;
     border-radius: 8px;
+}
+ a:hover.signup-button {
+    background-color: #6aa2fc;
+    color:#F9FAF8;
 }
 
 
@@ -132,6 +139,9 @@ header {
     width: 160px;
     text-align: center;
 
+}
+.box:hover {
+    opacity: 0.8;
 }
 .box img {
     width: 160px;
@@ -199,6 +209,10 @@ header {
     margin: 10px 0 10px 0;
     width: 130px;
     border-radius: 8px;
+}
+a:hover.call-signup-button {
+    background-color: #6aa2fc;
+    color:#F9FAF8;
 }
 
 footer {
